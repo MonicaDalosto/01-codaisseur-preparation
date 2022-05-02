@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Cousine', monospace;
+}
+
+.container {
+  width: 50vw;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 50px;
+  border: 3px dashed white;
+}
+
+header {
+  margin: 30px;
+}
+
+img {
+  border-radius: 100%;
+  width: 25vw;
+  max-width: 300px;
+}
+
+.flexPosition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+li {
+  line-height: 1.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
