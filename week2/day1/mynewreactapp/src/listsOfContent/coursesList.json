@@ -1,0 +1,21 @@
+[
+  {
+    "alt": "A woman and a bookshelf",
+    "className": "image",
+    "src": "https://learntocodetogether.nl/assets/expand-horizon.svg",
+    "titleRow": "Learn new skills and expand your horizon"
+  },
+  {
+    "alt": "A group of three people",
+    "className": "image",
+    "src": "https://learntocodetogether.nl/assets/developers.svg",
+    "titleRow": "Follow courses created by experienced developers"
+  },
+  {
+    "alt": "Two people in front a clock",
+    "className": "image",
+    "styles": { "width": "200px" },
+    "src": "https://learntocodetogether.nl/assets/step-by-step.svg",
+    "titleRow": "Fun, hands on and easy to follow"
+  }
+]
