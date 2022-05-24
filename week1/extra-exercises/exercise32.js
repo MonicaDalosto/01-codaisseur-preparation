@@ -1,0 +1,1 @@
+// 32: togglePower - Write a function that takes a [{id:number, power:boolean}] (array of objects) and a number argument. Toggle the power bool from false to true or from true to false if the id matches the second argument and return the result.

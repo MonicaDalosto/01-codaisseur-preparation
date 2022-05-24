@@ -1,0 +1,1 @@
+// 30: evenIds - Write a function that takes a [{}] (array of objects) argument, every object will have an id key (which is a number). Return an array with all the objects having a even number as key.

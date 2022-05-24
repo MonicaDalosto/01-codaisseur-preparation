@@ -1,0 +1,1 @@
+// 31: destroyLongestArrays - Write a function that takes a [[]] (array of arrays) argument, remove the longest array and return the result. If there are multiple array that are the longest, remove both.
