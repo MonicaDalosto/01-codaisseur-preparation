@@ -1,5 +1,6 @@
 import users from './data/users.json';
 import './App.css';
+// import './App.scss';
 import { useEffect, useState } from 'react';
 import Users from './components/Users';
 import Search from './components/Search';

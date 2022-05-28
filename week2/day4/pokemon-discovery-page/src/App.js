@@ -1,13 +1,12 @@
+import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import './App.css';
-// import NavBar from './components/NavBar';
 import PokemonDetailPage from './pages/PokemonDetailPage';
 
 const NavBar = () => {
   return (
     <div>
-      <Link style={{ marginRight: 30 }} to="/">
+      <Link style={{ margin: 30 }} to="/">
         Homepage
       </Link>
     </div>
@@ -17,10 +16,13 @@ const NavBar = () => {
 function App() {
   return (
     <div className="App">
+      <h1>Pokemon Discovery</h1>
       <NavBar />
-      <h1>Welcome to the Pokemon's page:</h1>
+
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />}>
+          <Route path="/:filter" element={<HomePage />} />
+        </Route>
         <Route path="/details/:pokename" element={<PokemonDetailPage />} />
       </Routes>
     </div>

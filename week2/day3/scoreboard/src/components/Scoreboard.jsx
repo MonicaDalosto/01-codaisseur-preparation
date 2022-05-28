@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AddPlayerForm from './AddPlayerForm';
 import Player from './Player';
+import '../style/Scoreboard.scss';
 
 // This function will order the object from the top to the bottom using the score value:
 const compareScore = (playerA, playerB) => {

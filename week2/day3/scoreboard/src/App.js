@@ -1,4 +1,5 @@
-import './App.css';
+// import './App.css';
+import './App.scss';
 import Scoreboard from './components/Scoreboard';
 import Title from './components/Title';
 
